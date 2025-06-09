@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form action="">
+        <h2>Registration Form</h2>
+        <label for="">Username :*</label>
+        <input type="text" name="una" id="una" required placeholder="Enter Your Name"><br><br>
+
+        <label for="">E-mail :*</label>
+        <input type="email" name="ema" id="ema" required placeholder="Enter Your Email"><br><br>
+
+        <label for="">Password :*</label>
+        <input type="password" name="paas" id="paas" required placeholder="Enter Your Password"><br><br>
+
+        <label for="">Age :</label>
+        <input type="number" name="age" id="age" placeholder="Enter Your Age" min="18"><br><br>
+
+        <label for="">Date :</label>
+        <input type="datetime-local" name="date" id="date"><br><br>
+
+        <label for="">File :</label>
+        <input type="file" name="file" id="file"><br><br>
+
+        <label for="">Gender :*</label>
+        <input type="radio" name="g" id="g">Male
+        <input type="radio" name="g" id="g">Female
+        <input type="radio" name="g" id="g">Other <br><br>
+
+        <input type="checkbox" name="ch" id="ch">Remember Me <br><br>
+
+        <label for="">Select Qualification :</label>
+        <select name="qua" id="qua" align required>
+            <option value="" align="center">--Select--</option>
+            <option value="">Matric</option>
+            <option value="">Inter</option>
+            <option value="">Graduation</option>
+            <option value="">Masters</option>
+            <option value="">Any Other</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="">Name :</label>
+            <input type="text" name="nam" id="nam" placeholder="Enter Name" required>
+        </fieldset><br>
+
+        <input type="submit" value="Signup">
+    </form>
+</body>
+
+</html>
